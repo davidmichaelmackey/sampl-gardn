@@ -10,6 +10,17 @@ html {
 
 h1 {
   font-weight: 700;
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 1.4vh;
+}
+
+.bigoltext {
+  margin-left: 10.8vw;
+  padding-top: 34.9vh;
+  font-size: 19.5vw;
+  font-weight: 700;
+  text-align: center;
 }
 
 p {
@@ -46,6 +57,7 @@ p {
 
 .whitetext {
   color: #FFFFFF;
+  text-shadow: #FFFFFF 0px 0px 30px;
 }
 
 .yellowtext {
@@ -68,17 +80,44 @@ p {
   z-index: 1;
   position: fixed;
   background-color: #FFFFFF;
+  /* box-shadow: #FFFFFF 0px 0px 28px; */
   width: 63px;
   height: 63px;
   border-radius: 50%;
 }
 
-.dot {
-  margin-left: .9vw;
-  margin-top: -1vh;
+.crater {
+  margin-left: .18vw;
+  margin-top: 0.34vh;
   z-index: 2;
   position: fixed;
-  background-color: #1B2E4F;
+  background-color: #D3D3D3;
+  /* box-shadow: #000000 0px 0px 4px; */
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  transition: background-color .5s ease;
+}
+
+/* 
+.crater {
+  margin-left: .94vw;
+  margin-top: 1.6vh;
+  z-index: 2;
+  position: fixed;
+  background-color: #D3D3D3;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+} */
+
+.dot {
+  margin-left: .94vw;
+  margin-top: -1.05vh;
+  z-index: 3;
+  position: fixed;
+  background-color: black;
+  /* box-shadow: #1B2E4F 0px 0px 10px; */
   width: 25px;
   height: 25px;
   border-radius: 50%;

@@ -1,3 +1,13 @@
+const crater = document.querySelector('.crater');
+
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 100) {
+    crater.style.backgroundColor = 'black';
+  } else {
+    crater.style.backgroundColor = '$D3D3D3';
+  }
+});
+
 // rotation animation
 const circle = document.querySelector('.circle');
 const dot = document.querySelector('.dot');
