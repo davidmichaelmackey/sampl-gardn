@@ -103,6 +103,7 @@ h1 {
 }
 
 .discord {
+  /* z-index: 10; */
   margin-left: 14.43vw;
   padding-top: 34.9vh;
   font-size: 19.5vw;
@@ -339,9 +340,10 @@ p {
 
 .discordlogo {
   position: absolute;
-  z-index: 9;
-  width: 50px;
-  height: 50px;
-  margin-left: 31.16vw;
-  margin-top: 10.6vh;
+  z-index: 0;
+  width: 400px;
+  height: 400px;
+  padding-left: 40vw;
+  padding-top: 10vh;
+  overflow: hidden;
 }
