@@ -1,3 +1,4 @@
+// rotation animation
 const circle = document.querySelector('.circle');
 const dot = document.querySelector('.dot');
 const diameter = circle.offsetWidth;
@@ -17,4 +18,13 @@ window.addEventListener('scroll', () => {
 
   // Set dot's coordinates and rotate it accordingly
   dot.style.transform = `translate(${x}px, ${y}px) rotate(${-dotPosition}deg)`;
+});
+
+// Smooth scrolling for links
+$(document).on('click', 'a[href^="#"]', function(event) {
+  event.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $($.attr(this, 'href')).offset().top
+  }, 500);
 });

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: 'Roboto Mono', monospace;
 }
@@ -18,24 +22,30 @@ p {
   height: 100vh;
 }
 
-.blacktext {
-  color: #000000;
-}
-
 .whitebg {
   background-color: #FFFFFF;
   width: 100vw;
   height: 100vh;
 }
 
-.whitetext {
-  color: #FFFFFF;
-}
-
 .yellowbg {
   background-color: #F7D65A;
   width: 100vw;
   height: 100vh;
+}
+
+.greybg {
+  background-color: #D3D3D3;
+  width: 100vw;
+  height: 100vh;
+}
+
+.blacktext {
+  color: #000000;
+}
+
+.whitetext {
+  color: #FFFFFF;
 }
 
 .yellowtext {
@@ -64,15 +74,13 @@ p {
 }
 
 .dot {
-  margin-left: 31.6vw;
-  margin-top: 40vh;
+  margin-left: .9vw;
+  margin-top: -1vh;
   z-index: 2;
   position: fixed;
-  background-color: red;
-  /* fill: greenyellow; */
-  color: red;
-  width: 30px;
-  height: 30px;
+  background-color: #1B2E4F;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
 }
 
