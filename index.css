@@ -65,11 +65,11 @@ h1 {
 
 .clickme {
   font-weight: 700;
-  font-size: 5vw;
+  font-size: 10vw;
   position: absolute;
-  padding-left: 38px;
+  padding-left: 36vw;
   margin-right: 0;
-  padding-top: 140px;
+  padding-top: 60px;
   margin-left: 0vw;
   color: #FFFFFF;
 }
@@ -188,8 +188,28 @@ p {
   border-radius: 50%;
 }
 
-.art {
+/* .art {
   padding-top: 2vh;
   margin-left: 35vw;
   margin-right: 20vw;
+} */
+
+#about {
+  position: absolute;
+  margin-top: 65.5vh;
+}
+
+#samples {
+  position: absolute;
+  margin-top: 46vh;
+}
+
+#presets {
+  position: absolute;
+  margin-top: 19.8vh;
+}
+
+#contact {
+  position: absolute;
+  margin-top: 36vh;
 }
