@@ -8,19 +8,84 @@ html {
   font-family: 'Roboto Mono', monospace;
 }
 
+.center {
+  text-align: center;
+}
+
 h1 {
   font-weight: 700;
   font-size: 2vw;
-  text-align: center;
   padding-top: 1.4vh;
 }
 
-.bigoltext {
-  margin-left: 10.8vw;
+.whiteline {
+  position: absolute;
+  margin-left: 32.28vw;
+  background-color: #FFFFFF;
+  width: 4px;
+  height: 100vh;
+}
+
+.blackline {
+  position: absolute;
+  margin-left: 32.28vw;
+  background-color: #000000;
+  width: 4px;
+  height: 100vh;
+}
+
+.yellowline {
+  position: absolute;
+  margin-left: 32.28vw;
+  background-color: #F7D65A;
+  width: 4px;
+  height: 100vh;
+}
+
+.aboutus {
+  margin-left: 1vw;
+  font-weight: 700;
+  font-size: 6vw;
+}
+
+.samples {
+  font-weight: 700;
+  font-size: 7vw;
+  padding-top: 900px;
+  margin-left: 0vw;
+}
+
+.presets {
+  padding-top: 820px;
+  font-weight: 700;
+  font-size: 7vw;
+  margin-left: 0vw;
+  color: #FFFFFF;
+}
+
+.clickme {
+  font-weight: 700;
+  font-size: 5vw;
+  position: absolute;
+  padding-left: 38px;
+  margin-right: 0;
+  padding-top: 140px;
+  margin-left: 0vw;
+  color: #FFFFFF;
+}
+
+.contact {
+  padding-top: 910px;
+  font-weight: 700;
+  font-size: 7vw;
+}
+
+.discord {
+  margin-left: 14.43vw;
   padding-top: 34.9vh;
   font-size: 19.5vw;
   font-weight: 700;
-  text-align: center;
+  /* text-align: center; */
 }
 
 p {
@@ -57,7 +122,7 @@ p {
 
 .whitetext {
   color: #FFFFFF;
-  text-shadow: #FFFFFF 0px 0px 30px;
+  /* text-shadow: #FFFFFF 0px 0px 30px; */
 }
 
 .yellowtext {
@@ -86,18 +151,18 @@ p {
   border-radius: 50%;
 }
 
-.crater {
+/* .crater {
   margin-left: .18vw;
   margin-top: 0.34vh;
   z-index: 2;
   position: fixed;
   background-color: #D3D3D3;
-  /* box-shadow: #000000 0px 0px 4px; */
+  /* box-shadow: #000000 0px 0px 4px;
   width: 55px;
   height: 55px;
   border-radius: 50%;
   transition: background-color .5s ease;
-}
+} */
 
 /* 
 .crater {

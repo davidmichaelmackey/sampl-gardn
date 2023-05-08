@@ -1,13 +1,3 @@
-const crater = document.querySelector('.crater');
-
-window.addEventListener('scroll', function() {
-  if (window.scrollY > 100) {
-    crater.style.backgroundColor = 'black';
-  } else {
-    crater.style.backgroundColor = '$D3D3D3';
-  }
-});
-
 // rotation animation
 const circle = document.querySelector('.circle');
 const dot = document.querySelector('.dot');
@@ -28,13 +18,4 @@ window.addEventListener('scroll', () => {
 
   // Set dot's coordinates and rotate it accordingly
   dot.style.transform = `translate(${x}px, ${y}px) rotate(${-dotPosition}deg)`;
-});
-
-// Smooth scrolling for links
-$(document).on('click', 'a[href^="#"]', function(event) {
-  event.preventDefault();
-
-  $('html, body').animate({
-    scrollTop: $($.attr(this, 'href')).offset().top
-  }, 500);
 });
