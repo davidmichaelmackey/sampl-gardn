@@ -65,23 +65,27 @@ h1 {
 
 .aboutus {
   /* padding-top: 890px; */
+  position: absolute;
   margin-left: 1vw;
   font-weight: 700;
-  font-size: 6vw;
+  font-size: 7.5vw;
 }
 
 .sampls {
+  z-index: 50;
   font-weight: 700;
-  font-size: 8vw;
+  font-size: 7.5vw;
   padding-top: 890px;
-  margin-left: 0vw;
+  margin-left: 5.85vw;
+  color: #FFFFFF;
 }
 
 .presets {
-  padding-top: 820px;
+  z-index: 50;
+  padding-top: 890px;
   font-weight: 700;
-  font-size: 7vw;
-  margin-left: 0.4vw;
+  font-size: 7.5vw;
+  margin-left: 1.35vw;
   color: #FFFFFF;
 }
 
@@ -356,7 +360,7 @@ p {
   z-index: 21;
   position: absolute;
   margin-left: 31.55vw;
-  margin-top: 29vh;
+  margin-top: 40.5vh;
   max-width: 4vw;
   color: #1B2E4F;
 }
@@ -373,7 +377,7 @@ p {
   z-index: 21;
   position: absolute;
   margin-left: 31.5vw;
-  margin-top: -47.45vh;
+  margin-top: -46.70vh;
 
   max-width: 4vw;
   color: #D3D3D3;
