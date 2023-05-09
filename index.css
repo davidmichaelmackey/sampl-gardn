@@ -5,6 +5,16 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+
 * {
   font-family: 'Roboto Mono', monospace;
 }
@@ -66,7 +76,8 @@ h1 {
 .aboutus {
   /* padding-top: 890px; */
   position: absolute;
-  margin-left: 1vw;
+
+  margin-left: -.8vw;
   font-weight: 700;
   font-size: 7.5vw;
 }
@@ -102,19 +113,31 @@ h1 {
 
 .contact {
   position: absolute;
-  margin-top: 910px;
-  margin-left: 18px;
+  /* margin-top: 910px; */
+  margin-left: -.8vw;
   font-weight: 700;
-  font-size: 7vw;
+  font-size: 7.5vw;
 }
 
 .discord {
   /* z-index: 10; */
-  margin-left: 14.43vw;
+  margin-left: 14.41vw;
   padding-top: 34.9vh;
   font-size: 19.5vw;
   font-weight: 700;
   /* text-align: center; */
+}
+
+.discordlink {
+  margin-left: 30.88vw;
+  margin-top: 39.6vh;
+  z-index: 40;
+  background-color: #738ADB;
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: none;
 }
 
 p {
@@ -135,6 +158,14 @@ p {
 
 .blckbg {
   background-color: #000000;
+  /* width: 67.6vw; */
+  /* float: right; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.discordbg {
+  background-color: #738ADB;
   /* width: 67.6vw; */
   /* float: right; */
   width: 100vw;
@@ -198,6 +229,7 @@ p {
 
 .aboutsesh {
   z-index: 1;
+  /* margin-left: -1.7vw; */
 }
 
 .circle {
@@ -207,26 +239,14 @@ p {
   position: fixed;
   background-color: #000000;
   /* box-shadow: #FFFFFF 0px 0px 28px; */
-  width: 63px;
-  height: 63px;
+  width: 62px;
+  height: 62px;
   border-radius: 50%;
 }
 
 /* .circle:hover {
   background-color: #FFFFFF;
 } */
-
-.discordlink {
-  margin-left: 30.9vw;
-  margin-top: 39.7vh;
-  z-index: 40;
-  background-color: #738ADB;
-  position: absolute;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  border: none;
-}
 
 /* .crater {
   margin-left: .18vw;
@@ -269,7 +289,7 @@ p {
 
 .dot:hover {
   background-color: #F58F55;
-  z-index: 22;
+  z-index: 52;
   /* transition: smooth; */
 }
 
@@ -395,7 +415,7 @@ p {
   z-index: 21;
   position: absolute;
   margin-left: 31.2vw;
-  margin-top: -39.8vh;
+  margin-top: -46.5vh;
   max-width: 4vw;
   color: #F7D65A;
 }
@@ -407,11 +427,11 @@ p {
 }
 
 .icon4 {
-  font-size: 2.08vw;
+  font-size: 2.1vw;
   opacity: 0;
   z-index: 21;
   position: absolute;
-  margin-left: 31.15vw;
+  margin-left: 31.17vw;
   margin-top: 40.65vh;
   /* margin-left: 31.2vw; */
   /* margin-top: -47.4vh; */
